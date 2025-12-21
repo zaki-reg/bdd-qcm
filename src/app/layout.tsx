@@ -6,14 +6,14 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "MCQ Revision Tool",
-  description: "Practice multiple choice questions",
+  description: "Practice multiple choice questions for exam revision",
 };
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
     <html lang="en" className="dark">
       <body className={inter.className}>{children}</body>
