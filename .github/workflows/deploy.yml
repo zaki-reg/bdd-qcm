@@ -28,11 +28,23 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: Check build output
+        run: |
+          echo "Checking build output directory..."
+          ls -la
+          if [ -d "out" ]; then
+            echo "✅ 'out' directory exists"
+            ls -la out
+          else
+            echo "❌ 'out' directory not found"
+            exit 1
+          fi
+
       - name: Deploy to Netlify (Production)
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         uses: nwtgck/actions-netlify@v3.0
         with:
-          publish-dir: './.next'
+          publish-dir: './out'
           production-branch: main
           production-deploy: true
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -48,7 +60,7 @@ jobs:
         if: github.event_name == 'pull_request'
         uses: nwtgck/actions-netlify@v3.0
         with:
-          publish-dir: './.next'
+          publish-dir: './out'
           production-deploy: false
           github-token: ${{ secrets.GITHUB_TOKEN }}
           deploy-message: "Preview deploy - PR #${{ github.event.number }}"
