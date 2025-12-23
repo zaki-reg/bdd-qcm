@@ -1,0 +1,3496 @@
+{
+  "metadata": {
+    "domain": "Architecture et administration des BDD",
+    "source": "attached_documents",
+    "documents_processed": 6,
+    "questions_per_document": 20,
+    "total_questions": 120
+  },
+  "questions": [
+    {
+      "id": "CS_Q_001",
+      "source_document": "lecture1.pdf",
+      "topic": "SQL",
+      "difficulty": "easy",
+      "question": "What does SQL stand for?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Structured Query Language",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Simple Query Language",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Standard Query Library",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Sequential Query Logic",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_002",
+      "source_document": "lecture1.pdf",
+      "topic": "SQL",
+      "difficulty": "easy",
+      "question": "Which SQL command is part of Data Definition Language (DDL)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "CREATE",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "SELECT",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "INSERT",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "GRANT",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_003",
+      "source_document": "lecture1.pdf",
+      "topic": "SQL",
+      "difficulty": "medium",
+      "question": "What is the purpose of the TPC-C benchmark?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Industry-standard benchmark for OLTP systems",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Testing web application performance",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Measuring network latency",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Benchmarking graphics processing",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_004",
+      "source_document": "lecture1.pdf",
+      "topic": "SQL",
+      "difficulty": "easy",
+      "question": "What data type is SERIAL used for in PostgreSQL?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Auto-incrementing integer primary key",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Serial number string",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Timestamp value",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Boolean flag",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_005",
+      "source_document": "lecture1.pdf",
+      "topic": "SQL",
+      "difficulty": "medium",
+      "question": "Which constraint ensures that all values in a column are distinct?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "UNIQUE",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "PRIMARY KEY",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "NOT NULL",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "CHECK",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_006",
+      "source_document": "lecture1.pdf",
+      "topic": "SQL",
+      "difficulty": "hard",
+      "question": "What referential action should be used to automatically delete child records when a parent record is deleted?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ON DELETE CASCADE",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "ON DELETE RESTRICT",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "ON DELETE SET NULL",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "ON DELETE NO ACTION",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_007",
+      "source_document": "lecture1.pdf",
+      "topic": "SQL",
+      "difficulty": "medium",
+      "question": "What is the scaling factor parameter in pgbench used for?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Controlling the size of generated data",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Setting the number of concurrent users",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Defining transaction duration",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Configuring cache size",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_008",
+      "source_document": "lecture1.pdf",
+      "topic": "SQL",
+      "difficulty": "easy",
+      "question": "Which SQL command is used to retrieve data from a database?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "SELECT",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "GET",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "FETCH",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "RETRIEVE",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_009",
+      "source_document": "lecture1.pdf",
+      "topic": "SQL",
+      "difficulty": "medium",
+      "question": "What is the purpose of the CHECK constraint in PostgreSQL?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Validates data against specified conditions",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Checks for duplicate values",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Verifies foreign key relationships",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ensures column is not null",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_010",
+      "source_document": "lecture1.pdf",
+      "topic": "SQL",
+      "difficulty": "hard",
+      "question": "In the TPC-C schema, what type of relationship exists between the warehouse and district tables?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "One-to-many (warehouse to district)",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Many-to-many",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "One-to-one",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Many-to-one (warehouse to district)",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_011",
+      "source_document": "lecture1.pdf",
+      "topic": "SQL",
+      "difficulty": "medium",
+      "question": "Which aggregate function concatenates values with a delimiter in PostgreSQL?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "STRING_AGG()",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "CONCAT()",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "GROUP_CONCAT()",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "JOIN_AGG()",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_012",
+      "source_document": "lecture1.pdf",
+      "topic": "SQL",
+      "difficulty": "easy",
+      "question": "What SQL keyword is used to sort query results?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ORDER BY",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "SORT BY",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "ARRANGE",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "GROUP BY",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_013",
+      "source_document": "lecture1.pdf",
+      "topic": "SQL",
+      "difficulty": "hard",
+      "question": "What is the purpose of using BEGIN and COMMIT in SQL transactions?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "To ensure atomicity of related operations",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "To speed up query execution",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "To create backup points",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "To enable parallel processing",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_014",
+      "source_document": "lecture1.pdf",
+      "topic": "SQL",
+      "difficulty": "medium",
+      "question": "Which EXPLAIN output key indicates that an index is being used?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Index Scan",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Seq Scan",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Full Scan",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Table Scan",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_015",
+      "source_document": "lecture1.pdf",
+      "topic": "SQL",
+      "difficulty": "easy",
+      "question": "What does the TRUNCATE command do?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Removes all records from a table",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Deletes specific records based on a condition",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Drops the entire table structure",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Shortens text fields",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_016",
+      "source_document": "lecture1.pdf",
+      "topic": "SQL",
+      "difficulty": "medium",
+      "question": "What is the recommended minimum disk space for TPC-C installation?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1GB+",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "100MB",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "10GB+",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "500MB",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_017",
+      "source_document": "lecture1.pdf",
+      "topic": "SQL",
+      "difficulty": "hard",
+      "question": "What is the difference between ON DELETE RESTRICT and ON DELETE CASCADE?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "RESTRICT prevents deletion if references exist, CASCADE automatically deletes child records",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "RESTRICT deletes slowly, CASCADE deletes quickly",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "RESTRICT applies to updates only, CASCADE applies to deletes only",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "They are functionally identical",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_018",
+      "source_document": "lecture1.pdf",
+      "topic": "SQL",
+      "difficulty": "medium",
+      "question": "What benefit does creating a schema provide in PostgreSQL?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Logical grouping of related objects",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Access control at schema level",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Namespace separation",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Automatic data compression",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_019",
+      "source_document": "lecture1.pdf",
+      "topic": "SQL",
+      "difficulty": "easy",
+      "question": "Which data type should be used for a fixed-length string in PostgreSQL?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "CHAR(n)",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "VARCHAR(n)",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "TEXT",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "STRING(n)",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_020",
+      "source_document": "lecture1.pdf",
+      "topic": "SQL",
+      "difficulty": "hard",
+      "question": "Why should indexes be created on frequently queried columns?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "To speed up data retrieval operations",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "To reduce storage requirements",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "To automatically update statistics",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "To enable automatic partitioning",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_021",
+      "source_document": "lecture2.pdf",
+      "topic": "Physical Design",
+      "difficulty": "medium",
+      "question": "Who were the two main figures in the Great Database Debate of 1974?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ted Codd and Charlie Bachman",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Edgar Codd and Larry Ellison",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Michael Stonebraker and Jim Gray",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Donald Chamberlin and Raymond Boyce",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_022",
+      "source_document": "lecture2.pdf",
+      "topic": "Physical Design",
+      "difficulty": "easy",
+      "question": "What is the primary focus of physical database design?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Creating efficient storage systems",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Defining user requirements",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Creating ER diagrams",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Writing application code",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_023",
+      "source_document": "lecture2.pdf",
+      "topic": "Physical Design",
+      "difficulty": "medium",
+      "question": "Which indexing method became the standard in database systems?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "B+tree",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hash index",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Binary search tree",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Sequential index",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_024",
+      "source_document": "lecture2.pdf",
+      "topic": "Physical Design",
+      "difficulty": "easy",
+      "question": "In the database life cycle, what comes after requirements analysis?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Logical Database Design",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Physical Database Design",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Implementation",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Testing",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_025",
+      "source_document": "lecture2.pdf",
+      "topic": "Physical Design",
+      "difficulty": "hard",
+      "question": "What are the key resources that impact database performance?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "CPU usage",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "I/O operations",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Network latency",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Screen resolution",
+          "is_correct": false
+        },
+        {
+          "id": "E",
+          "text": "Memory utilization",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_026",
+      "source_document": "lecture2.pdf",
+      "topic": "Physical Design",
+      "difficulty": "medium",
+      "question": "What is a secondary index used for?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Indexing non-key attributes",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Primary key lookup only",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Backup purposes",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Data compression",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_027",
+      "source_document": "lecture2.pdf",
+      "topic": "Physical Design",
+      "difficulty": "easy",
+      "question": "How many clustered indexes can a table have?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "One per table",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Multiple per table",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Unlimited",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "None",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_028",
+      "source_document": "lecture2.pdf",
+      "topic": "Physical Design",
+      "difficulty": "medium",
+      "question": "What is the primary advantage of hash indexes?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Fast exact match lookups",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Efficient range queries",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Low storage overhead",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Support for sorted access",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_029",
+      "source_document": "lecture2.pdf",
+      "topic": "Physical Design",
+      "difficulty": "hard",
+      "question": "For what type of data are bitmap indexes most efficient?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Low cardinality columns",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "High cardinality columns",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Primary keys",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Foreign keys",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_030",
+      "source_document": "lecture2.pdf",
+      "topic": "Physical Design",
+      "difficulty": "medium",
+      "question": "What is a materialized view?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Saved query results stored as physical tables",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "A virtual view with no storage",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "A temporary table",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "An index structure",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_031",
+      "source_document": "lecture2.pdf",
+      "topic": "Physical Design",
+      "difficulty": "easy",
+      "question": "What is the main challenge with materialized views?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Update and maintenance overhead",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Query performance degradation",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Complex syntax",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Limited database support",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_032",
+      "source_document": "lecture2.pdf",
+      "topic": "Physical Design",
+      "difficulty": "medium",
+      "question": "What is range partitioning?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Data sorted into value ranges with each range on specific disk",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Random distribution across disks",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Sequential storage on single disk",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Hash-based distribution",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_033",
+      "source_document": "lecture2.pdf",
+      "topic": "Physical Design",
+      "difficulty": "hard",
+      "question": "What is the trade-off involved in denormalization?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Improved query performance vs data integrity risks",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Storage cost vs CPU usage",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Read speed vs network latency",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Backup speed vs recovery time",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_034",
+      "source_document": "lecture2.pdf",
+      "topic": "Physical Design",
+      "difficulty": "medium",
+      "question": "What is data striping used for?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Spreading related data across multiple disks",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Compressing data for storage",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Encrypting sensitive information",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Archiving old data",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_035",
+      "source_document": "lecture2.pdf",
+      "topic": "Physical Design",
+      "difficulty": "easy",
+      "question": "What does OLTP stand for?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Online Transaction Processing",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Online Transfer Protocol",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Open Link Transaction Process",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Optimized Linear Transaction Programming",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_036",
+      "source_document": "lecture2.pdf",
+      "topic": "Physical Design",
+      "difficulty": "hard",
+      "question": "Why is physical database design considered complex?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Hundreds of interdependent variables",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Difficult to evaluate design choices",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Simple calculations",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Few configuration options",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_037",
+      "source_document": "lecture2.pdf",
+      "topic": "Physical Design",
+      "difficulty": "medium",
+      "question": "Which tool provides comprehensive design recommendations for IBM DB2?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "IBM DB2 Design Advisor",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Oracle SQL Tuning Advisor",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Microsoft Database Tuning Advisor",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "PostgreSQL Analyzer",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_038",
+      "source_document": "lecture2.pdf",
+      "topic": "Physical Design",
+      "difficulty": "easy",
+      "question": "What is the primary benefit of using automated design tools?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Handle complex computations and provide data-driven recommendations",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Eliminate need for human oversight",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Replace database administrators",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Write application code automatically",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_039",
+      "source_document": "lecture2.pdf",
+      "topic": "Physical Design",
+      "difficulty": "medium",
+      "question": "For OLAP workloads, what should physical design focus on?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Complex queries and aggregations",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Transaction speed",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Insert performance",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Concurrency control",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_040",
+      "source_document": "lecture2.pdf",
+      "topic": "Physical Design",
+      "difficulty": "hard",
+      "question": "What is the relationship between logical and physical database design?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Logical design focuses on structure, physical design focuses on implementation and performance",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "They are identical processes",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Physical design comes before logical design",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Logical design is optional",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_041",
+      "source_document": "lecture3.pdf",
+      "topic": "Indexing",
+      "difficulty": "easy",
+      "question": "What is the primary purpose of database indexing?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Eliminate sequential examination of data",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Compress data for storage",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Backup database records",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Encrypt sensitive information",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_042",
+      "source_document": "lecture3.pdf",
+      "topic": "Indexing",
+      "difficulty": "medium",
+      "question": "Which index type is most widely used in commercial RDBMS?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "B-tree",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hash",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Bitmap",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Join Index",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_043",
+      "source_document": "lecture3.pdf",
+      "topic": "Indexing",
+      "difficulty": "hard",
+      "question": "What are the key characteristics of B-tree indexes?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Inverted tree structure",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Uniform complexity for search and update",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Self-balancing structure",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Limited to equality queries only",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_044",
+      "source_document": "lecture3.pdf",
+      "topic": "Indexing",
+      "difficulty": "easy",
+      "question": "For what type of environment are B-tree indexes ideal?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "OLTP environments",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "OLAP environments",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Backup systems",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Archive storage",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_045",
+      "source_document": "lecture3.pdf",
+      "topic": "Indexing",
+      "difficulty": "medium",
+      "question": "What is a projection index optimized for?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Queries accessing limited columns",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Full table scans",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Join operations",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Data compression",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_046",
+      "source_document": "lecture3.pdf",
+      "topic": "Indexing",
+      "difficulty": "easy",
+      "question": "What is the main limitation of hash indexes?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Limited to exact match queries",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Too slow for small datasets",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Cannot be used on text fields",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Require too much storage",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_047",
+      "source_document": "lecture3.pdf",
+      "topic": "Indexing",
+      "difficulty": "hard",
+      "question": "What affects the efficiency of hash indexes?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Hash function quality",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Collision rate",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Table size",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Network latency",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_048",
+      "source_document": "lecture3.pdf",
+      "topic": "Indexing",
+      "difficulty": "medium",
+      "question": "What data structure does a bitmap index use?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Bitmap vectors for each distinct value",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hash tables",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Linked lists",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Binary trees",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_049",
+      "source_document": "lecture3.pdf",
+      "topic": "Indexing",
+      "difficulty": "easy",
+      "question": "For what type of columns are bitmap indexes excellent?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Low-cardinality columns",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "High-cardinality columns",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Primary key columns",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Foreign key columns",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_050",
+      "source_document": "lecture3.pdf",
+      "topic": "Indexing",
+      "difficulty": "medium",
+      "question": "What Boolean operations do bitmap indexes support efficiently?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "AND",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "OR",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "NOT",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "XOR",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_051",
+      "source_document": "lecture3.pdf",
+      "topic": "Indexing",
+      "difficulty": "hard",
+      "question": "What is the main purpose of a join index?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Precompute join operations",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Store compressed data",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Speed up single-table queries",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Replace foreign key constraints",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_052",
+      "source_document": "lecture3.pdf",
+      "topic": "Indexing",
+      "difficulty": "medium",
+      "question": "What does the size of a join index depend on?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Join selectivity",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Network speed",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "User permissions",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Database version",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_053",
+      "source_document": "lecture3.pdf",
+      "topic": "Indexing",
+      "difficulty": "easy",
+      "question": "What schema type is a star join index designed for?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Star schema",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Snowflake schema",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Relational schema",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Normalized schema",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_054",
+      "source_document": "lecture3.pdf",
+      "topic": "Indexing",
+      "difficulty": "hard",
+      "question": "What is a bitmap join index?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Combines join index and bitmap index",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Precomputes joins between tables",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "A type of hash index",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "A compressed B-tree",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_055",
+      "source_document": "lecture3.pdf",
+      "topic": "Indexing",
+      "difficulty": "medium",
+      "question": "What type of join does a bitmap join index typically use?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Equi-inner join",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Outer join",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Cross join",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Self join",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_056",
+      "source_document": "lecture3.pdf",
+      "topic": "Indexing",
+      "difficulty": "easy",
+      "question": "Which index type has excellent performance for range queries?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "B-tree",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hash",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Bitmap",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Join Index",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_057",
+      "source_document": "lecture3.pdf",
+      "topic": "Indexing",
+      "difficulty": "medium",
+      "question": "What is the storage characteristic of hash indexes?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Low storage requirements",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "High storage requirements",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Variable based on cardinality",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Same as B-tree",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_058",
+      "source_document": "lecture3.pdf",
+      "topic": "Indexing",
+      "difficulty": "hard",
+      "question": "What is the trade-off with bitmap indexes regarding storage?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Low storage for low cardinality, high storage for high cardinality",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Always low storage",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Always high storage",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Storage independent of cardinality",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_059",
+      "source_document": "lecture3.pdf",
+      "topic": "Indexing",
+      "difficulty": "easy",
+      "question": "What does the EXPLAIN ANALYZE command show in PostgreSQL?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Query execution plan and performance",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Database schema",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "User permissions",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Backup status",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_060",
+      "source_document": "lecture3.pdf",
+      "topic": "Indexing",
+      "difficulty": "medium",
+      "question": "When should you use a B-tree index?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "For primary keys",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "For range queries",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "For general purpose indexing",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "For low cardinality Boolean operations only",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_061",
+      "source_document": "lecture4.pdf",
+      "topic": "Partitioning",
+      "difficulty": "easy",
+      "question": "What does horizontal partitioning divide?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Tables, views, and indexes into smaller partitions",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Columns into separate tables",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Databases into schemas",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Queries into subqueries",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_062",
+      "source_document": "lecture4.pdf",
+      "topic": "Partitioning",
+      "difficulty": "medium",
+      "question": "What is Primary Horizontal Partitioning (PHP)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Uses restriction predicates on the relation itself",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Uses predicates on related relations",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Divides columns into groups",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Replicates data across servers",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_063",
+      "source_document": "lecture4.pdf",
+      "topic": "Partitioning",
+      "difficulty": "hard",
+      "question": "What is Referential Horizontal Partitioning (RHP)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Uses predicates on related relations to partition",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Reduces join operation costs",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Uses random distribution",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Only works on primary keys",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_064",
+      "source_document": "lecture4.pdf",
+      "topic": "Partitioning",
+      "difficulty": "easy",
+      "question": "What is one advantage of horizontal partitioning for database administration?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Divide and rule strategy with smaller, manageable units",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Eliminates need for backups",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Removes need for indexing",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Automatically optimizes queries",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_065",
+      "source_document": "lecture4.pdf",
+      "topic": "Partitioning",
+      "difficulty": "medium",
+      "question": "What is partition pruning?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A performance optimization technique that reduces data volume scanned",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Removing old partitions from disk",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Compressing partition data",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Merging small partitions",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_066",
+      "source_document": "lecture4.pdf",
+      "topic": "Partitioning",
+      "difficulty": "hard",
+      "question": "Why is the Horizontal Partitioning Problem (HPPDW) considered NP-complete?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Reduced to the 3-Partition problem",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Strongly NP-complete",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Requires heuristic approaches for large problems",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Can be solved in polynomial time",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_067",
+      "source_document": "lecture4.pdf",
+      "topic": "Partitioning",
+      "difficulty": "easy",
+      "question": "In range partitioning, how is data organized?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Data sorted into value ranges",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Randomly distributed",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "By hash function",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "By insertion order",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_068",
+      "source_document": "lecture4.pdf",
+      "topic": "Partitioning",
+      "difficulty": "medium",
+      "question": "What is the main characteristic of hash partitioning?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Even distribution of data",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ordered data placement",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Manual partition assignment",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Sequential storage",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_069",
+      "source_document": "lecture4.pdf",
+      "topic": "Partitioning",
+      "difficulty": "easy",
+      "question": "What does list partitioning use to distribute data?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Discrete values or categories",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Numeric ranges",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Hash functions",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Random selection",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_070",
+      "source_document": "lecture4.pdf",
+      "topic": "Partitioning",
+      "difficulty": "hard",
+      "question": "What is composite partitioning?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Combines two partitioning modes in multiple levels",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Uses only one partitioning method",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Partitions based on composite keys only",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Random multi-level distribution",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_071",
+      "source_document": "lecture4.pdf",
+      "topic": "Partitioning",
+      "difficulty": "medium",
+      "question": "What is multicolumn partitioning?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Combines range and hash partitioning with up to 16 key columns",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Partitions each column separately",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Uses only primary key columns",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Limited to two columns",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_072",
+      "source_document": "lecture4.pdf",
+      "topic": "Partitioning",
+      "difficulty": "easy",
+      "question": "What is reference partitioning based on?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Referential constraints (parent-child relationship)",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Random distribution",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Alphabetical order",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Data insertion time",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_073",
+      "source_document": "lecture4.pdf",
+      "topic": "Partitioning",
+      "difficulty": "medium",
+      "question": "What database feature introduced reference partitioning?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Oracle 11g",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "PostgreSQL 9.0",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "MySQL 5.7",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "SQL Server 2016",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_074",
+      "source_document": "lecture4.pdf",
+      "topic": "Partitioning",
+      "difficulty": "hard",
+      "question": "When should you use partitioning?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Tables larger than 2GB",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Tables with temporal data",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Need for data archiving",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "All tables regardless of size",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_075",
+      "source_document": "lecture4.pdf",
+      "topic": "Partitioning",
+      "difficulty": "medium",
+      "question": "What should you avoid when choosing partitioning keys?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Frequently updated columns",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Frequently queried columns",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Columns with predictable value ranges",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Temporal columns",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_076",
+      "source_document": "lecture4.pdf",
+      "topic": "Partitioning",
+      "difficulty": "easy",
+      "question": "What is one benefit of partition independence?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Isolated failures allow continuous operation",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Eliminates need for backups",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Removes query optimization requirements",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Automatic data replication",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_077",
+      "source_document": "lecture4.pdf",
+      "topic": "Partitioning",
+      "difficulty": "medium",
+      "question": "What is the main consideration mentioned about using partitioning?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Partitioning adds complexity to database design and maintenance",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Partitioning is always beneficial",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Partitioning requires no planning",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Partitioning eliminates all performance issues",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_078",
+      "source_document": "lecture4.pdf",
+      "topic": "Partitioning",
+      "difficulty": "hard",
+      "question": "How does range partitioning perform for range queries?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Excellent performance",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Poor performance",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Average performance",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Cannot handle range queries",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_079",
+      "source_document": "lecture4.pdf",
+      "topic": "Partitioning",
+      "difficulty": "easy",
+      "question": "What is the data distribution characteristic of hash partitioning?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Uniform distribution",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Skewed distribution",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ordered distribution",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Random clustering",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_080",
+      "source_document": "lecture4.pdf",
+      "topic": "Partitioning",
+      "difficulty": "medium",
+      "question": "What does the lecture recommend for testing partitioning strategies?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Test with production-like data volumes",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Test only with small samples",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Skip testing and implement directly",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Test only in development",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_081",
+      "source_document": "lecture5.pdf",
+      "topic": "Materialized Views",
+      "difficulty": "easy",
+      "question": "What is a materialized view?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Pre-computed result sets stored as physical tables",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "A virtual view with no storage",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "A temporary query result",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "An index structure",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_082",
+      "source_document": "lecture5.pdf",
+      "topic": "Materialized Views",
+      "difficulty": "medium",
+      "question": "What is the key difference between virtual views and materialized views?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Virtual views have no physical storage, materialized views have physical storage",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Virtual views are faster",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Materialized views are always current",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Virtual views require more memory",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_083",
+      "source_document": "lecture5.pdf",
+      "topic": "Materialized Views",
+      "difficulty": "hard",
+      "question": "What is an SPJ view?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Select-Project-Join only view",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Stored Procedure Junction view",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Sequential Processing Join view",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "System Performance Junction view",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_084",
+      "source_document": "lecture5.pdf",
+      "topic": "Materialized Views",
+      "difficulty": "easy",
+      "question": "What are the three key phases in the lifecycle of a materialized view?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Creation, Maintenance, Exploitation",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Design, Build, Deploy",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Plan, Execute, Monitor",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Initialize, Update, Delete",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_085",
+      "source_document": "lecture5.pdf",
+      "topic": "Materialized Views",
+      "difficulty": "medium",
+      "question": "What does BUILD IMMEDIATE mean in materialized view creation?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Populate view immediately upon creation",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Build the view structure only",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Delay population until first query",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Build incrementally over time",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_086",
+      "source_document": "lecture5.pdf",
+      "topic": "Materialized Views",
+      "difficulty": "hard",
+      "question": "What is the difference between ON COMMIT and ON DEMAND refresh?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ON COMMIT refreshes automatically with transactions, ON DEMAND refreshes periodically",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "ON COMMIT is slower than ON DEMAND",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "They are functionally identical",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "ON DEMAND provides stronger consistency",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_087",
+      "source_document": "lecture5.pdf",
+      "topic": "Materialized Views",
+      "difficulty": "medium",
+      "question": "What does incremental refresh require?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Materialized view logs",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Complete table scans",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Full database backup",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "System restart",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_088",
+      "source_document": "lecture5.pdf",
+      "topic": "Materialized Views",
+      "difficulty": "easy",
+      "question": "What is query rewriting in the context of materialized views?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Using materialized views to answer queries efficiently",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Modifying user queries for security",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Converting SQL to machine code",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Optimizing query syntax",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_089",
+      "source_document": "lecture5.pdf",
+      "topic": "Materialized Views",
+      "difficulty": "hard",
+      "question": "Why is the Materialized View Selection Problem (MVSP) considered NP-Hard?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Proven by reduction from 0/1 Knapsack Problem",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Has exponential solution space",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Can be solved in polynomial time",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Has simple linear solutions",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_090",
+      "source_document": "lecture5.pdf",
+      "topic": "Materialized Views",
+      "difficulty": "medium",
+      "question": "What are the inputs to the Materialized View Selection Problem?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Database schema",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Query workload",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Storage constraint",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Network bandwidth",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_091",
+      "source_document": "lecture5.pdf",
+      "topic": "Materialized Views",
+      "difficulty": "easy",
+      "question": "What is the objective of the MVSP optimization problem?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Minimize total query cost",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Maximize storage usage",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Minimize number of views",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Maximize maintenance cost",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_092",
+      "source_document": "lecture5.pdf",
+      "topic": "Materialized Views",
+      "difficulty": "medium",
+      "question": "What is a common heuristic rule for materializing views?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Materialize expensive queries",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Materialize all queries",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Materialize only simple queries",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Never materialize aggregated views",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_093",
+      "source_document": "lecture5.pdf",
+      "topic": "Materialized Views",
+      "difficulty": "hard",
+      "question": "What is the greedy algorithm approach for view selection?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Iteratively select best view per unit cost",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Select all views at once",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Random selection of views",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Select largest views first",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_094",
+      "source_document": "lecture5.pdf",
+      "topic": "Materialized Views",
+      "difficulty": "easy",
+      "question": "Why are data warehouses ideal for materialized views?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Read-intensive with complex analytical queries",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Write-intensive workloads",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Small data volumes",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Unpredictable patterns",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_095",
+      "source_document": "lecture5.pdf",
+      "topic": "Materialized Views",
+      "difficulty": "medium",
+      "question": "What is a data cube lattice?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Hierarchical structure of group-by views",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "A physical storage structure",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "A type of index",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "A query execution plan",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_096",
+      "source_document": "lecture5.pdf",
+      "topic": "Materialized Views",
+      "difficulty": "hard",
+      "question": "What tool does Oracle provide for materialized view selection?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "SQL Access Advisor",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Query Optimizer",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Performance Monitor",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "View Designer",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_097",
+      "source_document": "lecture5.pdf",
+      "topic": "Materialized Views",
+      "difficulty": "medium",
+      "question": "What is a common pitfall to avoid when implementing materialized views?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Materializing too many views",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ignoring maintenance costs",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Monitoring view usage",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Using automated tools",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_098",
+      "source_document": "lecture5.pdf",
+      "topic": "Materialized Views",
+      "difficulty": "easy",
+      "question": "What should be the starting approach for materialized views?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Start small with 2-3 high-impact views",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Materialize all possible views immediately",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Wait until performance problems occur",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Materialize random views",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_099",
+      "source_document": "lecture5.pdf",
+      "topic": "Materialized Views",
+      "difficulty": "medium",
+      "question": "What is the trade-off with complete refresh vs incremental refresh?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Complete is simple but expensive, incremental is efficient but complex",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Complete is faster than incremental",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Incremental requires more storage",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Complete refresh is always better",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_100",
+      "source_document": "lecture5.pdf",
+      "topic": "Materialized Views",
+      "difficulty": "hard",
+      "question": "What is the benefit efficiency metric used in the retail example?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Benefit per MB (1.91 per MB)",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Total query time reduction",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Number of queries answered",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Storage usage percentage",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_101",
+      "source_document": "lecture6.pdf",
+      "topic": "Query Optimization",
+      "difficulty": "easy",
+      "question": "What is query optimization?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Selecting the most efficient execution plan from multiple alternatives",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Writing better SQL queries",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Compressing query results",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Caching query outputs",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_102",
+      "source_document": "lecture6.pdf",
+      "topic": "Query Optimization",
+      "difficulty": "medium",
+      "question": "What are the three stages of query processing?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Parsing & Validation",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Query Optimization",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Execution",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Result Caching",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_103",
+      "source_document": "lecture6.pdf",
+      "topic": "Query Optimization",
+      "difficulty": "hard",
+      "question": "What happens during the parsing and validation stage?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Syntax validation",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Query tree generation",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "Object reference identification",
+          "is_correct": true
+        },
+        {
+          "id": "D",
+          "text": "Query execution",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_104",
+      "source_document": "lecture6.pdf",
+      "topic": "Query Optimization",
+      "difficulty": "easy",
+      "question": "What is a query transformation?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Rewriting queries to equivalent but more efficient forms",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Converting queries to different languages",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Encrypting query text",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Compressing query syntax",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_105",
+      "source_document": "lecture6.pdf",
+      "topic": "Query Optimization",
+      "difficulty": "medium",
+      "question": "What is the primary cost metric used in the lecture's examples?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Sequential Block Accesses (SBA)",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "CPU cycles",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Network latency",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Memory usage",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_106",
+      "source_document": "lecture6.pdf",
+      "topic": "Query Optimization",
+      "difficulty": "hard",
+      "question": "In the case study, what was the cost improvement between naive and optimized approaches?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "94% reduction (from 6,240 to 398 SBA)",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "50% reduction",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "25% reduction",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "10% reduction",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_107",
+      "source_document": "lecture6.pdf",
+      "topic": "Query Optimization",
+      "difficulty": "easy",
+      "question": "What is the fundamental optimization principle emphasized in the lecture?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Reduce data volume as early as possible",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Always use indexes",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Maximize parallel processing",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Cache all results",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_108",
+      "source_document": "lecture6.pdf",
+      "topic": "Query Optimization",
+      "difficulty": "medium",
+      "question": "What is the commutativity property of joins?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "R1 ⋈ R2 = R2 ⋈ R1",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "R1 ⋈ R2 ≠ R2 ⋈ R1",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Joins cannot be reordered",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Join order always matters",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_109",
+      "source_document": "lecture6.pdf",
+      "topic": "Query Optimization",
+      "difficulty": "hard",
+      "question": "What transformation rule allows pushing selections down?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "σ_P(R1 ⋈ R2) = σ_P(R1) ⋈ R2",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Selections must always be applied after joins",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Selections cannot be moved",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Selection order is fixed",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_110",
+      "source_document": "lecture6.pdf",
+      "topic": "Query Optimization",
+      "difficulty": "medium",
+      "question": "What is selectivity in query optimization?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Proportion of records satisfying a condition (0 to 1)",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Number of indexes used",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Query execution time",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "CPU usage percentage",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_111",
+      "source_document": "lecture6.pdf",
+      "topic": "Query Optimization",
+      "difficulty": "easy",
+      "question": "What is the selectivity formula for equality predicates?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "S = 1 / card_A(R)",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "S = card_A(R)",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "S = 1",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "S = 0",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_112",
+      "source_document": "lecture6.pdf",
+      "topic": "Query Optimization",
+      "difficulty": "hard",
+      "question": "How is selectivity calculated for conjunction (AND) of predicates?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "S(P ∧ Q) = S(P) × S(Q)",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "S(P ∧ Q) = S(P) + S(Q)",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "S(P ∧ Q) = max(S(P), S(Q))",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "S(P ∧ Q) = min(S(P), S(Q))",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_113",
+      "source_document": "lecture6.pdf",
+      "topic": "Query Optimization",
+      "difficulty": "medium",
+      "question": "What do histograms provide that uniform distribution assumptions cannot?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Accurate representation of actual data distribution",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Faster query execution",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Automatic indexing",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Data compression",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_114",
+      "source_document": "lecture6.pdf",
+      "topic": "Query Optimization",
+      "difficulty": "easy",
+      "question": "What is the practical rule for primary key-foreign key joins?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Result has same number of rows as table with foreign key",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Result has same number of rows as table with primary key",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Result is always larger than both tables",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Result is always empty",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_115",
+      "source_document": "lecture6.pdf",
+      "topic": "Query Optimization",
+      "difficulty": "medium",
+      "question": "What are persistent optimization challenges mentioned in the lecture?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Cost model accuracy depends on statistics quality",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Search space grows exponentially with query complexity",
+          "is_correct": true
+        },
+        {
+          "id": "C",
+          "text": "All queries can be optimized perfectly",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Optimization is always instant",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_116",
+      "source_document": "lecture6.pdf",
+      "topic": "Query Optimization",
+      "difficulty": "hard",
+      "question": "What is adaptive query processing?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Runtime plan adjustments and mid-execution reoptimization",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Static plan selection",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "One-time optimization",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Manual query tuning",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_117",
+      "source_document": "lecture6.pdf",
+      "topic": "Query Optimization",
+      "difficulty": "easy",
+      "question": "What tool should developers use to analyze query execution plans?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "EXPLAIN",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "DEBUG",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "TRACE",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "PROFILE",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_118",
+      "source_document": "lecture6.pdf",
+      "topic": "Query Optimization",
+      "difficulty": "medium",
+      "question": "What is the benefit of pushing projections down in query execution?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Eliminate unnecessary attributes early",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Increase intermediate result size",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Slow down processing",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Use more memory",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_119",
+      "source_document": "lecture6.pdf",
+      "topic": "Query Optimization",
+      "difficulty": "hard",
+      "question": "What is the relationship between physical design and query optimization?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Physical design decisions fundamentally constrain and enable optimization possibilities",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "They are completely independent",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Physical design is irrelevant to optimization",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Optimization happens before physical design",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "CS_Q_120",
+      "source_document": "lecture6.pdf",
+      "topic": "Query Optimization",
+      "difficulty": "medium",
+      "question": "What emerging trend uses historical performance data for query optimization?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Machine Learning",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "Manual tuning",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "Random selection",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "Brute force testing",
+          "is_correct": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "domain": "Computer Science",
+    "source": "algorithms_course",
+    "documents_processed": 4,
+    "questions_per_document": 20,
+    "total_questions": 85
+  },
+  "questions": [
+    {
+      "id": "ALG_Q_001",
+      "source_document": "lecture1.pdf",
+      "topic": "Sorting Algorithms",
+      "difficulty": "easy",
+      "question": "What is the time complexity of Quick Sort in the average case?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "O(n log n)",
+          "is_correct": true
+        },
+        {
+          "id": "B",
+          "text": "O(n²)",
+          "is_correct": false
+        },
+        {
+          "id": "C",
+          "text": "O(n)",
+          "is_correct": false
+        },
+        {
+          "id": "D",
+          "text": "O(log n)",
+          "is_correct": false
+        }
+      ]
+    }
+  ]
+}

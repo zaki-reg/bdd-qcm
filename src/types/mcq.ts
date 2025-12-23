@@ -12,7 +12,7 @@ export interface Question {
   question: string;
   choices: Choice[];
   multiple_answers?: boolean;
-  chapter?: string; // Add optional chapter field
+  chapter?: string;
 }
 
 export interface MCQData {
@@ -24,4 +24,19 @@ export interface MCQData {
     total_questions: number;
   };
   questions: Question[];
+}
+
+export interface Module {
+  id: string;
+  name: string;
+  description: string;
+  icon: string;
+  difficulty: "beginner" | "intermediate" | "advanced";
+  questionsCount: number;
+  color: string;
+  dataFile: string;
+}
+
+export interface ModuleList {
+  modules: Module[];
 }

@@ -1,0 +1,34 @@
+{
+  "modules": [
+    {
+      "id": "database",
+      "name": "Database Systems",
+      "description": "SQL, PostgreSQL, Database Design, and Optimization",
+      "icon": "Database",
+      "difficulty": "intermediate",
+      "questionsCount": 120,
+      "color": "blue",
+      "dataFile": "database.json"
+    },
+    {
+      "id": "algorithms",
+      "name": "Algorithms & Data Structures",
+      "description": "Sorting, Searching, Trees, Graphs, and Complexity Analysis",
+      "icon": "Binary",
+      "difficulty": "advanced",
+      "questionsCount": 85,
+      "color": "purple",
+      "dataFile": "algorithms.json"
+    },
+    {
+      "id": "networking",
+      "name": "Computer Networks",
+      "description": "TCP/IP, OSI Model, Routing, and Network Security",
+      "icon": "Network",
+      "difficulty": "intermediate",
+      "questionsCount": 95,
+      "color": "green",
+      "dataFile": "networking.json"
+    }
+  ]
+}
