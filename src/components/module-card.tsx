@@ -18,6 +18,7 @@ import {
   BookOpen,
 } from "lucide-react";
 import Link from "next/link";
+import { motion } from "@/components/ui/motion";
 
 interface ModuleCardProps {
   module: Module;
@@ -63,47 +64,53 @@ export function ModuleCard({ module }: ModuleCardProps) {
   };
 
   return (
-    <Card className="group border-white/10 bg-card/50 backdrop-blur hover:border-white/20 transition-all duration-300 animate-scale-in">
-      <CardHeader className="space-y-4">
-        <div className="flex items-start justify-between">
-          <div
-            className={`p-3 rounded-lg border ${getColorClass(module.color)}`}
-          >
-            <Icon className="w-6 h-6" />
+    <motion.div
+      whileHover={{ scale: 1.02, y: -4 }}
+      whileTap={{ scale: 0.98 }}
+      transition={{ duration: 0.2, ease: "easeOut" }}
+    >
+      <Card className="group border-white/10 bg-card/50 backdrop-blur hover:border-white/20 transition-colors duration-300 h-full">
+        <CardHeader className="space-y-4">
+          <div className="flex items-start justify-between">
+            <div
+              className={`p-3 rounded-lg border ${getColorClass(module.color)}`}
+            >
+              <Icon className="w-6 h-6" />
+            </div>
+            <Badge
+              variant="outline"
+              className={getDifficultyColor(module.difficulty)}
+            >
+              {module.difficulty.toUpperCase()}
+            </Badge>
           </div>
-          <Badge
-            variant="outline"
-            className={getDifficultyColor(module.difficulty)}
-          >
-            {module.difficulty.toUpperCase()}
-          </Badge>
-        </div>
 
-        <div className="space-y-2">
-          <CardTitle className="text-xl sm:text-2xl font-semibold group-hover:text-primary transition-colors">
-            {module.name}
-          </CardTitle>
-          <CardDescription className="text-sm text-muted-foreground">
-            {module.description}
-          </CardDescription>
-        </div>
-      </CardHeader>
+          <div className="space-y-2">
+            <CardTitle className="text-xl sm:text-2xl font-semibold group-hover:text-primary transition-colors">
+              {module.name}
+            </CardTitle>
+            <CardDescription className="text-sm text-muted-foreground">
+              {module.description}
+            </CardDescription>
+          </div>
+        </CardHeader>
 
-      <CardContent className="space-y-4">
-        <div className="flex items-center justify-between text-sm">
-          <span className="text-muted-foreground">Total Questions</span>
-          <Badge variant="outline" className="font-semibold">
-            {module.questionsCount}
-          </Badge>
-        </div>
+        <CardContent className="space-y-4">
+          <div className="flex items-center justify-between text-sm">
+            <span className="text-muted-foreground">Total Questions</span>
+            <Badge variant="outline" className="font-semibold">
+              {module.questionsCount}
+            </Badge>
+          </div>
 
-        <Link href={`/quiz/${module.id}`} className="block">
-          <Button className="w-full group-hover:bg-primary/90 transition-all active:scale-[0.98]">
-            Start Quiz
-            <ChevronRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-          </Button>
-        </Link>
-      </CardContent>
-    </Card>
+          <Link href={`/quiz/${module.id}`} className="block">
+            <Button className="w-full group-hover:bg-primary/90 transition-all">
+              Start Quiz
+              <ChevronRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+            </Button>
+          </Link>
+        </CardContent>
+      </Card>
+    </motion.div>
   );
 }
